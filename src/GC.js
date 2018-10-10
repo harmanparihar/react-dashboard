@@ -11,10 +11,10 @@ class GC extends React.Component{
   return(
     <div id="gc" className="graphs">
     <h1>Google Charts</h1>
+    <GoogleScatter width={this.props.width} height={this.props.height} />
+    <GoogleGeo width={this.props.width} height={this.props.height} />
     <GoogleBar width={this.props.width} height={this.props.height} />
     <GoogleLine width={this.props.width} height={this.props.height} />
-    <GoogleGeo width={this.props.width} height={this.props.height} />
-    <GoogleScatter width={this.props.width} height={this.props.height} />
     </div>
   );
 }
