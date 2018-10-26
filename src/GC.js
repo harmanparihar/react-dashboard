@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import GoogleBar from './GoogleBar.js';
 import GoogleLine from './GoogleLine.js';
 import GoogleGeo from './GoogleGeo.js';

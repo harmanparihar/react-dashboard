@@ -1,7 +1,6 @@
 
 // Step 1 - Including react
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 // Step 2 - Including the react-fusioncharts component
 import ReactFC from 'react-fusioncharts';

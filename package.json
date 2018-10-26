@@ -2,15 +2,12 @@
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harmanparihar.github.io/react-dashboard/",
   "dependencies": {
     "fusioncharts": "^3.13.1-sr.2",
-    "plotly.js": "^1.41.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-fusioncharts": "^2.0.5",
     "react-google-charts": "^3.0.8",
-    "react-plotly.js": "^2.2.0",
     "react-scripts": "2.0.4"
   },
   "scripts": {

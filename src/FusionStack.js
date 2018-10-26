@@ -1,7 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import fusioncharts from 'fusioncharts';
-import charts from 'fusioncharts/fusioncharts.charts';
 import ReactFusioncharts from 'react-fusioncharts';
 
 const dataSource = {
@@ -11,7 +8,6 @@ const dataSource = {
     "numbersuffix": " TWh",
     "showsum": "1",
     "plottooltext": "$label produces <b>$dataValue</b> of energy from $seriesName",
-    "theme": "fusion",
     "drawcrossline": "1",
     "theme": "candy",
     "palettecolors": "#5d62b5,#ffc533,#f2726f,#29c3be,#62b58f"

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import FusionBar from './FusionBar.js';
 import FusionLine from './FusionLine.js';
 import FusionPie from './FusionPie.js';
@@ -15,7 +14,6 @@ render(){
     <FusionLine width={this.props.width} height={this.props.height}/>
     <FusionPie width={this.props.width} height={this.props.height}/>
     <FusionStack width={this.props.width} height={this.props.height}/>
-
     </div>
   );
 }

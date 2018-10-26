@@ -1,7 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import fusioncharts from 'fusioncharts';
-import charts from 'fusioncharts/fusioncharts.charts';
 import ReactFusioncharts from 'react-fusioncharts';
 
 // Resolves charts dependancy
