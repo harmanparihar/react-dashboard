@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Chart } from "react-google-charts";
 import Sidebar from './Sidebar.js';
 import FC from './FC.js';
 import GC from './GC.js';
