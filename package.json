@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "fusioncharts": "^3.13.1-sr.2",
+    "node": "^11.0.0",
+    "npm": "^6.4.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-fusioncharts": "^2.0.5",
