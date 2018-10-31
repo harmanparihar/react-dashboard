@@ -10,6 +10,9 @@ const dataSource = {
     "plottooltext": "$label produces <b>$dataValue</b> of energy from $seriesName",
     "drawcrossline": "1",
     "theme": "candy",
+    "bgColor": '#262a33',
+    "captionFontColor": "#fff",
+    "subcaptionFontColor": "#fff",
     "palettecolors": "#5d62b5,#ffc533,#f2726f,#29c3be,#62b58f"
   },
   "categories": [

@@ -1,4 +1,3 @@
-
 // Step 1 - Including react
 import React from 'react';
 
@@ -14,13 +13,17 @@ import Column2D from 'fusioncharts/fusioncharts.charts';
 // Step 5 - Including the theme as fusion
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.candy';
 
-// Step 6 - Adding the chart as dependency to the core fusioncharts
-ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
+
+
+Column2D(FusionCharts );
+FusionTheme(FusionCharts);
+ReactFC.fcRoot(FusionCharts);
 
 // Step 7 - Creating the JSON object to store the chart configurations
 const chartConfigs = {
     type: 'column2d',// The chart type
     dataFormat: 'json', // Data type
+    theme: "candy",
     dataSource: {
         // Chart Configuration
         "chart": {
